@@ -12,20 +12,42 @@
 */
 Route::get('/',function(){
     return view('index');
-});
+})->name('index');
 
 Route::get('/contacto',function(){
     return view('contact');
-});
+})->name('contact');
 
 Route::get('/detalles',function(){
     return view('show');
-});
+})->name('show');
 
 
 Route::get('/blog',function(){
     return view('blog');
-});
+})->name('blog');
+
+Route::get('/blog',function(){
+    return view('blog');
+})->name('blog');
+
+
+Route::get('/legal',function(){
+    return "en creacion";
+})->name('legal');
+
+
+Route::get('/nosotros',function(){
+    return "en creacion";
+})->name('us');
+
+
+Route::get('/adopcion',function(){
+    return "en creacion";
+})->name('adopcion');
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

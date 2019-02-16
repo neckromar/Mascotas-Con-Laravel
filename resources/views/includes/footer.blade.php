@@ -7,10 +7,10 @@
 							<div class="row">
 								<div class="col-lg-6 col-md-7 col-xs-12 text-right pull-right">
 									<ul class="footer-menu">
-										<li><a href="blog.html" class="tran3s">Blog</a></li>
-										<li><a href="#" class="tran3s">Nosotros</a></li>
-										<li><a href="#" class="tran3s">Adopción </a></li>
-										<li><a href="#" class="tran3s">Legal</a></li>
+										<li><a href="{{route('blog')}}" class="tran3s">Blog</a></li>
+										<li><a href="{{route('us')}}" class="tran3s">Nosotros</a></li>
+										<li><a href="{{route('adopcion')}}" class="tran3s">Adopción </a></li>
+										<li><a href="{{route('legal')}}" class="tran3s">Legal</a></li>
 									</ul>
 									
 									<ul>
@@ -32,7 +32,7 @@
 									</ul>
 								</div>
 								<div class="col-lg-6 col-md-5 col-xs-12 footer-logo">
-									<div class="logo"><a href="index.html"><img src="{{asset('images/logo.png')}}" alt="Logo"></a></div>
+									<div class="logo"><a href="{{route('index')}}"><img src="{{asset('images/logo.png')}}" alt="Logo"></a></div>
 									<p>Hecho con el &#10084; <strong> hacia los animales</strong></p>
 								</div>
 							</div> 
