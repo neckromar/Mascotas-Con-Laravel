@@ -25,10 +25,9 @@
 									</ul><br>
 
 									<ul class="social-icon">
-										<li><a href="#" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="#" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										<li><a href="#" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-										<li><a href="#" class="tran3s"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                                                            <li><a href="{{setting('site.Facebook')}}" target="_blank" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="{{setting('site.Twitter')}}" target="_blank" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="{{setting('site.Instagram')}}" target="_blank" class="tran3s"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 									</ul>
 								</div>
 								<div class="col-lg-6 col-md-5 col-xs-12 footer-logo">
