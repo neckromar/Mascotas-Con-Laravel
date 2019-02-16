@@ -54,3 +54,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/view', 'HomeController@view');
 //Route::get('/blog', 'HomeController@view')->name('blog');
 //Route::get('/contacto', 'HomeController@view')->name('contacto');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

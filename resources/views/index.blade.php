@@ -11,7 +11,7 @@
                 <div class="container">
 
                     <div class="image-wrapper wow fadeInUp animated" data-wow-delay="0.75s">
-                        <img src="{{asset('images/home/shape-3.jpg')}}" alt="">
+                        <img src="{{voyager::image(setting('site.Image'))}}" width="200%" alt="">
                     </div>
 
                     <h1 class="wow fadeInUp animated">Encuentra <br>a tu mascota.</h1>
